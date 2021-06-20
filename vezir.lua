@@ -1,7 +1,7 @@
 IPlist =
     {
         {"vezirtest", "95.70.165.166"},  --Hypnos   
-        {"single-samet", "213.226.119.89"},  --Hypnos  
+        {"singlesamet", "213.226.119.89"},  --Hypnos  
     }
 setElementData(root, "vezirkoruma", 1)
 oneat = nil
