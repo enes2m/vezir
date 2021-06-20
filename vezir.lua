@@ -25,13 +25,13 @@ function koruma(res)
             print("bu koruma Winter Scripting tarafından yapılmıştır.")
                 if data1 == key then 
                     setElementData(root, "vezirkoruma", 1)
-                    print ("Vezir Model orjinal model kullandiginiz icin tesekkurler.")
-                    sendMessage("paketlog"," model, kullanan server ip :   "  ..ip.." Lisans:  **Var!  ** Server Name : " ..name.. " **Paket Aktif!**" )
+                    print ("Vezir Moddingi Tercih Ettiğiniz İçin Teşekkürler :) .")
+                    sendMessage("paketlog"," model, sunucu ip :   "  ..ip.." Sürüm:  **Var!  ** Sunucu İsmi : " ..name.. " **Model Sorunsuz Aktif!**" )
                     oneat = true
               else 
-                    shutdown ("Vezir Model çalıntı model tespit edildi.")
+                    shutdown ("Çalıntı Model Tespit Edildi <@454588903995867137> .")
                     setElementData(root, "vezirkoruma", nil)
-                    sendMessage("paketlog","modeli kullanan server ip :   "  ..ip.." Lisans:  **Yok!  ** Server Name : " ..name.. " **Sunucu Kapatıldı!**" )
+                    sendMessage("paketlog","Modeli Çalan Sunucu :   "  ..ip.." Lisans:  **Yok!  ** Sunucu İsmi : " ..name.. " **Model Çalıştırılamadı!**" )
               end
     else 
          print("Sistem kendini güncelliyor 2 dakika sonra restart atın!")
