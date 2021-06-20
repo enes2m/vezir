@@ -1,6 +1,7 @@
 IPlist =
     {
         {"vezirtest", "95.70.165.166"},  --Hypnos   
+        {"single-samet", "213.226.119.89"},  --Hypnos  
     }
 setElementData(root, "vezirkoruma", 1)
 oneat = nil
@@ -42,8 +43,8 @@ addEventHandler("starthypnos", root, koruma)
 Webhooks = {
     ["paketlog"] = {
         link = "https://discord.com/api/webhooks/855906476806897664/g4w1T1NR3g2EF6d6-C9OiejKuPT9onJHcFbV6HJpDOZhBMtTopJzHpQN9k3Y-jTIYNVh",
-        avatar = "https://i.resimyukle.xyz/O1zJST.png", -- if u want to empty, enter nil
-        username = "BOT"
+        avatar = "https://resimyukle.org/i/xlwqu", -- if u want to empty, enter nil
+        username = "Vezir Obje Lisans & Koruma"
     }
     
 }
