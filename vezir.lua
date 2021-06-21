@@ -4,6 +4,7 @@ IPlist =
         {"singlesamet", "213.226.119.89"},  --Hypnos  
         {"singlesamet1", "213.226.119.89"},  --Hypnos  
         {"singlesamet2", "213.226.119.89"},  --Hypnos  
+        {"singlesamet3", "213.226.119.89"},  --Hypnos  
     }
 setElementData(root, "vezirkoruma", 1)
 oneat = nil
