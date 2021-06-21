@@ -44,7 +44,7 @@ addEventHandler("starthypnos", root, koruma)
 Webhooks = {
     ["paketlog"] = {
         link = "https://discord.com/api/webhooks/855906476806897664/g4w1T1NR3g2EF6d6-C9OiejKuPT9onJHcFbV6HJpDOZhBMtTopJzHpQN9k3Y-jTIYNVh",
-        avatar = "https://resimyukle.org/i/xlwqu", -- if u want to empty, enter nil
+        avatar = "<a href="https://resimyukle.link/i/ODPqG"><img src="https://s3.eu-central-1.wasabisys.com/iresim/ODPqG.png" alt="ODPqG.png" border="0" /></a>", -- if u want to empty, enter nil
         username = "Vezir Obje Lisans & Koruma"
     }
     
