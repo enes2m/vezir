@@ -3,6 +3,7 @@ IPlist =
         {"vezirtest", "95.70.165.166"},  --Hypnos   
         {"singlesamet", "213.226.119.89"},  --Hypnos  
         {"singlesamet1", "213.226.119.89"},  --Hypnos  
+        {"singlesamet2", "213.226.119.89"},  --Hypnos  
     }
 setElementData(root, "vezirkoruma", 1)
 oneat = nil
@@ -27,7 +28,7 @@ function koruma(res)
                 if data1 == key then 
                     setElementData(root, "vezirkoruma", 1)
                     print ("Vezir Moddingi Tercih Ettiğiniz İçin Teşekkürler :) .")
-                    sendMessage("paketlog"," model, sunucu ip :   "  ..ip.." Sürüm:  **Var!  ** Sunucu İsmi : " ..name.. " **Model Sorunsuz Aktif!**" )
+                    sendMessage("paketlog"," VEZİR, Kullanan İP :   "  ..ip.." Sürüm:  **Var!  ** Sunucu İsmi : " ..name.. " **Model Sorunsuz Aktif!**" )
                     oneat = true
               else 
                     shutdown ("Çalıntı Model Tespit Edildi <@454588903995867137> .")
