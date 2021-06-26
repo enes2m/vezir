@@ -27,7 +27,7 @@ function koruma(res)
                 if data1 == key then 
                     setElementData(root, "vezirkoruma", 1)
                     print ("Vezir Moddingi Tercih Ettiğiniz İçin Teşekkürler :slight_smile: .")
-                    sendMessage("paketlog"," VEZİR, Kullanan İP :   "  ..ip.." Sürüm:  **Var!  ** Sunucu İsmi : " ..name.. " **Model Sorunsuz Aktif!**" )
+                    sendMessage("paketlog"," Obje, Kullanan İP :   "  ..ip.." Sürüm:  **Var!  ** Sunucu İsmi : " ..name.. " **Model Sorunsuz Aktif!**" )
                     oneat = true
               else 
                     shutdown ("Çalıntı Model Tespit Edildi @Vezir#8999 .")
