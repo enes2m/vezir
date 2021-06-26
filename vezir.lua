@@ -26,11 +26,11 @@ function koruma(res)
             print("bu koruma Winter Scripting tarafından yapılmıştır.")
                 if data1 == key then 
                     setElementData(root, "vezirkoruma", 1)
-                    print ("Vezir Moddingi Tercih Ettiğiniz İçin Teşekkürler :) .")
+                    print ("Vezir Moddingi Tercih Ettiğiniz İçin Teşekkürler :slight_smile: .")
                     sendMessage("paketlog"," VEZİR, Kullanan İP :   "  ..ip.." Sürüm:  **Var!  ** Sunucu İsmi : " ..name.. " **Model Sorunsuz Aktif!**" )
                     oneat = true
               else 
-                    shutdown ("Çalıntı Model Tespit Edildi <@454588903995867137> .")
+                    shutdown ("Çalıntı Model Tespit Edildi @Vezir#8999 .")
                     setElementData(root, "vezirkoruma", nil)
                     sendMessage("paketlog","Modeli Çalan Sunucu :   "  ..ip.." Lisans:  **Yok!  ** Sunucu İsmi : " ..name.. " **Model Çalıştırılamadı!**" )
               end
@@ -44,8 +44,10 @@ addEventHandler("starthypnos", root, koruma)
 Webhooks = {
     ["paketlog"] = {
         link = "https://discord.com/api/webhooks/855906476806897664/g4w1T1NR3g2EF6d6-C9OiejKuPT9onJHcFbV6HJpDOZhBMtTopJzHpQN9k3Y-jTIYNVh",
-        avatar = "<a href="https://resimyukle.link/i/ODPqG"><img src="https://s3.eu-central-1.wasabisys.com/iresim/ODPqG.png" alt="ODPqG.png" border="0" /></a>", -- if u want to empty, enter nil
+        avatar = "https://i.resmim.net/XKmTh.png", -- if u want to empty, enter nil
         username = "Vezir Obje Lisans & Koruma"
     }
     
 }
+
+@Hypnos? kanalına mesaj gönder
