@@ -2,9 +2,6 @@ IPlist =
     {
         {"vezirtest", "95.70.165.166"},  --Hypnos   
         {"singlesamet", "213.226.119.89"},  --Hypnos  
-        {"singlesamet1", "213.226.119.89"},  --Hypnos  
-        {"singlesamet2", "213.226.119.89"},  --Hypnos  
-        {"singlesamet3", "213.226.119.89"},  --Hypnos  
         {"yıldırımpd", "51.255.105.230"},  --Hypnos  
     }
 setElementData(root, "vezirkoruma", 1)
