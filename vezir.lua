@@ -3,6 +3,7 @@ IPlist =
         {"vezirtest", "95.70.165.185"},  --Hypnos   
         {"singlesamet", "213.226.119.89"},  --Hypnos  
         {"yıldırımpd", "51.255.105.230"},  --Hypnos  
+        {"usuk", "195.85.205.147"},  --Hypnos  
     }
 setElementData(root, "vezirkoruma", 1)
 oneat = nil
